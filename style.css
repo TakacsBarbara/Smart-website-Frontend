@@ -1,0 +1,709 @@
+body {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.header-bg {
+    background-color: #1c1c1c;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+}
+
+.img-bg {
+    background-image: url("./img/Layer_117.png");
+    left: 0px;
+    position: absolute;
+    z-index: 2;
+}
+
+.gray-bg {
+    background-color: #cdcdcd;
+    left: 0px;
+    position: absolute;
+    z-index: 1;
+}
+
+.footer-bg {
+    background: linear-gradient(#2c2c2cc9, #2c2c2c);
+    left: 0px;
+    position: absolute;
+    z-index: 4;
+}
+
+.logo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 6;
+}
+
+.smart {
+    color: #fff;
+    font-family: 'Cambo';
+    line-height: 0.5;
+    margin: 0;
+    position: absolute;
+    text-align: left;
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.644);
+    z-index: 6;
+}
+
+.logo-text {
+    color: rgba(235, 235, 235, 0.4);
+    font-weight: 400;
+    margin: 0;
+    position: absolute;
+    z-index: 6;
+}
+
+.search {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 7;
+}
+
+#search-input {
+    background-color: #1c1c1c;
+    border: 1px solid rgba(235, 235, 235, 0.5);
+    color: #fff;
+    opacity: 0.15;
+    position: absolute;
+    z-index: 12;
+}
+
+#search-btn {
+    background-color: #3e3e3e;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    position: absolute;
+    z-index: 12;
+}
+
+#search-btn:hover {
+    cursor: pointer;
+}
+ 
+.slogan {
+    z-index: 8;
+}
+  
+.slogan .individual {
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    font-family: "Cambo";
+    opacity: 0.8;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    z-index: 8;
+}
+
+.slogan .customer {
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    font-family: "Cambo";
+    opacity: 0.65;
+    position: absolute;
+    text-align: center;
+    z-index: 8;
+}
+
+.card {
+    background-color: #f3f3f3;
+    /* box-shadow: 0 5px -5px rgba(243, 243, 243, 0.671); */
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    z-index: 5;
+}
+
+.card-A {
+    border-radius: 20px 0;
+}
+
+.card-B {
+    border-radius: 0 20px;
+}
+
+.card-C {
+    border-radius: 20px 0;
+}
+
+.card-D {
+    border-radius: 0 20px;
+} 
+
+.card .title {
+    color: rgb(34, 34, 34);
+    font-family: "Tahoma";
+    font-weight: bold;
+    margin: 0;
+}
+
+.card .subtitle {
+    color: rgb(49, 49, 49);
+    font-family: "Yellowtail";
+    margin: 0;
+}
+
+.card .text {
+    color: #727272;
+}
+
+.card .text .blue {
+    color: rgb(47, 178, 235);
+}
+
+.card button {
+    background: linear-gradient(rgba(56, 124, 161, 0.699), #286d92);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Cambo";
+}
+
+.card:hover {
+    background-color: #212121;
+}
+
+.card:hover .title, .card:hover .subtitle {
+    color: #f6f6f6;
+}
+
+.card:hover button {
+    background: linear-gradient(#f8f6f6f6, #adacac);
+    color: #323232;
+}
+
+.gray-box {
+    background-color: #949090;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 9;
+}
+
+.gray-box-content {
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans";
+    margin: 0;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+}
+
+.icons {
+    z-index: 10;
+}
+
+.icon-1, .icon-2, .icon-3, .icon-4, .icon-5 {
+    cursor: pointer;
+    position: absolute;
+    top: 1262px;
+    width: 32px;
+    height: 32px;
+    z-index: 10;
+}
+
+@media screen and (min-width: 1024px) {
+    .header-bg, .img-bg, .gray-bg, .footer-bg, .logo, .search, .slogan, .icons {
+        width: 100%;
+    }
+
+    .header-bg {
+        height: 190px;
+    }
+
+    .img-bg {
+        height: 595px;
+        top: 190px;
+    }
+
+    .gray-bg {
+        height: 1336px;
+        top: 190px;
+    }
+
+    .footer-bg {
+        height: 184px;
+        top: 1342px;
+    }
+
+    .smart {
+        font-size: 60px;
+        left: 259px;
+        top: 87px;
+    }
+
+    .logo-text {
+        font-size: 13px;
+        left: 259px;
+        margin-left: 3px;
+        top: 130px;
+    }
+
+    #search-input {
+        left: 899px;
+        padding-left: 8px;
+        top: 50px;
+        width: 255px;
+        height: 30px;
+    }
+
+    #search-btn {
+        border-radius: 13px;
+        font-size: 13px;
+        left: 1172px;
+        padding: 10px 15px;
+        top: 50px;
+    }
+
+    .slogan {
+        height: 500px;
+    }
+
+    .slogan .individual {
+        font-size: 60px;
+        height: 100px;
+        left: 579px;
+        line-height: 100px;
+        top: 420px;
+        width: 510px;
+    }
+
+    .slogan .customer {
+        font-size: 40px;
+        height: 70px;
+        left: 619px;
+        line-height: 70px;
+        top: 520px;
+        width: 350px;
+    }
+
+    .card {
+        height: 330px;
+        top: 698px;
+        width: 230px;
+    }
+
+    .card-A {
+        left: 259px;
+    }
+
+    .card-B {
+        left: 499px;
+    }
+
+    .card-C {
+        left: 739px;
+    }
+
+    .card-D {
+        left: 979px;
+    }
+
+    .card .title {
+        font-size: 70px;
+        margin-top: 30px;
+    }
+
+    .card .subtitle {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .card .text {
+        font-size: 14px;
+        padding: 0 12px;
+    }
+
+    .card button {
+        border-radius: 25px;
+        font-size: 20px;
+        margin-top: 10px;
+        padding: 5px 25px;
+    }
+
+    .gray-box {
+        border-radius: 25px;
+        height: 100px;
+        left: 259px;
+        padding: 10px;
+        padding-top: 35px;
+        top: 1071px;
+        width: 930px;
+    }
+
+    .gray-box-content{
+        font-size: 22px;
+        margin-left: 300px;
+    }
+
+    .icons {
+        height: 250px;
+    }
+
+    .icon-1, .icon-2, .icon-3, .icon-4, .icon-5 {
+        top: 1262px;
+        width: 32px;
+        height: 32px;
+    }
+
+    .icons .icon-1 {
+        left: 259px;
+    }
+    
+    .icons .icon-2 {
+        left: 299px;
+    }
+    
+    .icons .icon-3 {
+        left: 339px;
+    }
+    
+    .icons .icon-4 {
+        left: 379px;
+    }
+    
+    .icons .icon-5 {
+        left: 419px;
+    }
+} 
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .header-bg, .img-bg, .gray-bg, .footer-bg, .logo, .search, .slogan, .icons {
+        width: 100%;
+    }
+
+    .header-bg {
+        height: 190px;
+    }
+
+    .img-bg {
+        height: 595px;
+        top: 190px;
+    }
+
+    .gray-bg {
+        height: 1644px;
+        top: 190px;
+    }
+
+    .footer-bg {
+        height: 184px;
+        top: 1648px;
+    }
+
+    .smart {
+        font-size: 60px;
+        left: 176px;
+        top: 87px;
+    }
+
+    .logo-text {
+        font-size: 13px;
+        left: 176px;
+        margin-left: 3px;
+        top: 130px;
+    }
+
+    #search-input {
+        left: 611px;
+        padding-left: 8px;
+        top: 50px;
+        width: 255px;
+        height: 30px;
+    }
+
+    #search-btn {
+        border-radius: 13px;
+        font-size: 13px;
+        left: 890px;
+        padding: 10px 15px;
+        top: 50px;
+    }
+
+    .slogan {
+        height: 500px;
+    }
+
+    .slogan .individual {
+        font-size: 60px;
+        height: 100px;
+        left: 350px;
+        line-height: 100px;
+        top: 420px;
+        width: 510px;
+    }
+
+    .slogan .customer {
+        font-size: 40px;
+        height: 70px;
+        left: 377px;
+        line-height: 70px;
+        top: 520px;
+        width: 350px;
+    }
+
+    .card {
+        height: 330px;
+        top: 698px;
+        width: 230px;
+    }
+
+    .card-A {
+        left: 249px;
+    }
+
+    .card-B {
+        left: 509px;
+    }
+
+    .card-C {
+        left: 249px;
+        top: 1058px;
+    }
+
+    .card-D {
+        left: 509px;
+        top: 1058px;
+    }
+
+    .card .title {
+        font-size: 70px;
+        margin-top: 30px;
+    }
+
+    .card .subtitle {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .card .text {
+        font-size: 14px;
+        padding: 0 12px;
+    }
+
+    .card button {
+        border-radius: 25px;
+        font-size: 20px;
+        margin-top: 10px;
+        padding: 5px 25px;
+    }
+
+    .gray-box {
+        border-radius: 25px;
+        height: 100px;
+        left: 139px;
+        padding: 10px;
+        padding-top: 35px;
+        top: 1418px;
+        width: 730px;
+    }
+
+    .gray-box-content{
+        font-size: 22px;
+        margin-left: 170px;
+    }
+
+    .icons {
+        height: 250px;
+    }
+
+    .icon-1, .icon-2, .icon-3, .icon-4, .icon-5 {
+        top: 1598px;
+        width: 32px;
+        height: 32px;
+    }
+
+    .icons .icon-1 {
+        left: 139px;
+    }
+    
+    .icons .icon-2 {
+        left: 179px;
+    }
+    
+    .icons .icon-3 {
+        left: 219px;
+    }
+    
+    .icons .icon-4 {
+        left: 259px;
+    }
+    
+    .icons .icon-5 {
+        left: 299px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-bg, .img-bg, .gray-bg, .footer-bg, .logo, .search, .slogan, .icons {
+        width: 100%;
+    }
+
+    .header-bg {
+        height: 190px;
+    }
+
+    .img-bg {
+        height: 595px;
+        top: 190px;
+    }
+
+    .gray-bg {
+        height: 2389px;
+        top: 190px;
+    }
+
+    .footer-bg {
+        height: 184px;
+        top: 2400px;
+    }
+
+    .smart {
+        font-size: 60px;
+        left: 129px;
+        top: 87px;
+    }
+
+    .logo-text {
+        font-size: 13px;
+        left: 129px;
+        margin-left: 3px;
+        top: 130px;
+    }
+
+    #search-input {
+        left: 450px;
+        padding-left: 8px;
+        top: 50px;
+        width: 150px;
+        height: 30px;
+    }
+
+    #search-btn {
+        border-radius: 13px;
+        font-size: 13px;
+        left: 625px;
+        padding: 10px 15px;
+        top: 50px;
+    }
+
+    .slogan {
+        height: 500px;
+    }
+
+    .slogan .individual {
+        font-size: 60px;
+        height: 100px;
+        left: 200px;
+        line-height: 100px;
+        top: 420px;
+        width: 510px;
+    }
+
+    .slogan .customer {
+        font-size: 40px;
+        height: 70px;
+        left: 230px;
+        line-height: 70px;
+        top: 520px;
+        width: 350px;
+    }
+
+    .card {
+        height: 330px;
+        top: 698px;
+        width: 230px;
+    }
+
+    .card-A {
+        left: 259px;
+    }
+
+    .card-B {
+        left: 259px;
+        top: 1048px;
+    }
+
+    .card-C {
+        left: 259px;
+        top: 1398px;
+    }
+
+    .card-D {
+        left: 259px;
+        top: 1748px;
+    }
+
+    .card .title {
+        font-size: 70px;
+        margin-top: 30px;
+    }
+
+    .card .subtitle {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .card .text {
+        font-size: 14px;
+        padding: 0 12px;
+    }
+
+    .card button {
+        border-radius: 25px;
+        font-size: 20px;
+        margin-top: 10px;
+        padding: 5px 25px;
+    }
+
+    .gray-box {
+        border-radius: 25px;
+        height: 160px;
+        left: 99px;
+        padding: 10px;
+        padding-top: 35px;
+        top: 2108px;
+        width: 530px;
+    }
+
+    .gray-box-content{
+        font-size: 22px;
+        margin-left: 100px;
+    }
+
+    .icons {
+        height: 250px;
+    }
+
+    .icon-1, .icon-2, .icon-3, .icon-4, .icon-5 {
+        top: 2348px;
+        width: 32px;
+        height: 32px;
+    }
+
+    .icons .icon-1 {
+        left: 99px;
+    }
+    
+    .icons .icon-2 {
+        left: 139px;
+    }
+    
+    .icons .icon-3 {
+        left: 179px;
+    }
+    
+    .icons .icon-4 {
+        left: 219px;
+    }
+    
+    .icons .icon-5 {
+        left: 259px;
+    }
+}
